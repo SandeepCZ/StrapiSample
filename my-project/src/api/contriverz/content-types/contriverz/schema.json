@@ -1,0 +1,32 @@
+{
+  "kind": "collectionType",
+  "collectionName": "contriverzs",
+  "info": {
+    "singularName": "contriverz",
+    "pluralName": "contriverzs",
+    "displayName": "Contriverz",
+    "description": ""
+  },
+  "options": {
+    "draftAndPublish": true
+  },
+  "pluginOptions": {},
+  "attributes": {
+    "Post": {
+      "type": "string"
+    },
+    "Email": {
+      "type": "email",
+      "required": true
+    },
+    "Experience": {
+      "type": "integer"
+    },
+    "Joining": {
+      "type": "date"
+    },
+    "Description": {
+      "type": "richtext"
+    }
+  }
+}
